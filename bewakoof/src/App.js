@@ -5,6 +5,7 @@ import Poster from "./homepage/Poster";
 function App() {
   return (
     <div className="App">
+    
       <Navbar />
       <Poster />
     </div>
