@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="totalnavbar">
@@ -7,9 +7,9 @@ const Navbar = () => {
         <div className="uppernavbar">
           <div>Offer</div>
           <div>Fanbook</div>
-          <div>Download App</div>
-          <div>Tribe Membership</div>
-          <div style={{ marginLeft: "47rem" }}>Contact us</div>
+          <div style={{ width: "80px" }}>Download App</div>
+          <div style={{ width: "100px" }}>Tribe Membership</div>
+          <div style={{ marginLeft: "44rem", width: "60px" }}>Contact us</div>
           <div>Track order</div>
         </div>
       </div>
@@ -28,7 +28,9 @@ const Navbar = () => {
             MEN
           </div>
           <div className="men">WOMEN</div>
-          <div className="men">MOBILE COVER</div>
+          <div className="men" style={{ width: "140px" }}>
+            MOBILE COVER
+          </div>
 
           <div>
             <input
@@ -38,13 +40,18 @@ const Navbar = () => {
                 marginTop: "3px",
                 backgroundColor: "#eee",
                 border: "1px solid #cccc",
-                marginLeft: "22rem",
+                marginLeft: "20rem",
               }}
               placeholder="Search by product,category or collection"
             />
           </div>
 
-          <div style={{ fontSize: "15px", marginTop: "10px" }}>| Login</div>
+          <Link to={"signin"}  style={{textDecoration:"none"}}>
+            <div  style={{ fontSize: "15px", marginTop: "10px", width: "50px" , textDecoration:"none"}}>
+              | Login
+            </div>
+          </Link>
+
           <div>
             <img
               style={{ width: "20px", marginTop: "10px" }}

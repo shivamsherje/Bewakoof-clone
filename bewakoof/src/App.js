@@ -1,13 +1,11 @@
 import "./App.css";
-import Navbar from "./homepage/Navbar";
-import Poster from "./homepage/Poster";
+import Allroutes from "./components/Allroutes";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
     <div className="App">
-    
-      <Navbar />
-      <Poster />
+      <Allroutes />
     </div>
   );
 }
