@@ -35,9 +35,9 @@ const Signin = () => {
 
           <form>
             <h4 style={{ marginLeft: "-14rem" }}>FIRST NAME</h4>
-            <input style={{ width: "310px", height: "30px" }} type="email" />
+            <input style={{ width: "310px", height: "30px" }} type="text" />
             <h4 style={{ marginLeft: "-15rem" }}>LAST NAME</h4>
-            <input style={{ width: "310px", height: "30px" }} type="password" />
+            <input style={{ width: "310px", height: "30px" }} type="text" />
             <h4 style={{ marginLeft: "-17rem" }}>EMAIL</h4>
             <input style={{ width: "310px", height: "30px" }} type="email" />
             <h4 style={{ marginLeft: "-15rem" }}>PASSWORD</h4>
