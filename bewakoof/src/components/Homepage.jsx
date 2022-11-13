@@ -9,7 +9,7 @@ const Homepage = () => {
     <div>
       <Navbar />
       <Poster />
-      <Allcard />
+      <Allcard/>
       <Footer />
     </div>
   );

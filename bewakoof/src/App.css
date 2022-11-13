@@ -56,3 +56,136 @@ background-color: #eee;
 .loginbutton{
   cursor: pointer;;
 }
+.cardbox{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+  cursor: pointer;
+}
+
+
+
+.container {
+  
+  justify-content: center;
+  border: 1PX solid RED;
+  width: 400px;
+}
+
+.dropdown-btn {
+  font-size: 16px;
+  background: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 400px;
+  /* padding: 0 30px; */
+  cursor: pointer;
+
+}
+.dropdown-btn:hover,
+.dropdown-btn:focus {
+  background: #f2f2f2;
+}
+
+.dropdown-items {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 370px;
+  /* margin-top: 5px; */
+  /* display: flex; */
+  flex-direction: column;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.dropdown-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+.dropdown-item:not(first-child) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* .dropdown-item:not(last-child) {
+  padding-top: 15px;
+  padding-bottom: 15px;
+} */
+
+.isVisible {
+  visibility: visible;
+}
+.isHidden {
+  visibility: hidden;
+}
+.dropdown-btn{
+  width: 400PX;
+  text-align: left;
+  border-right:none;
+  border-top: none;
+  border-left: none;
+  background-color: white;
+  border-color: #eeee;
+  font-family: sans-serif;
+}
+
+
+
+.container1 {
+  
+  justify-content: center;
+  border: 1PX solid RED;
+  width: 400px;
+  height: auto;
+}
+
+.dropdown-btn1 {
+  font-size: 16px;
+  background: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 400px;
+  /* padding: 0 30px; */
+  cursor: pointer;
+
+}
+.dropdown-btn1:hover,
+.dropdown-btn:focus {
+  background: #f2f2f2;
+}
+
+.dropdown-items1 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 370px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+.dropdown-item1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+}
+.dropdown-item1:not(first-child) {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* .dropdown-item:not(last-child) {
+  padding-top: 15px;
+  padding-bottom: 15px;
+} */
+
+.isVisible {
+  visibility: visible;
+}
+.isHidden {
+  visibility: hidden;
+}
+.dropdown-btn1{
+  width: 400PX;
+  text-align: left;
+  border-right:none;
+  border-top: none;
+  border-left: none;
+  background-color: white;
+  border-color: #eeee;
+  font-family: sans-serif;
+}
