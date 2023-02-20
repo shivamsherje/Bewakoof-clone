@@ -29,14 +29,11 @@ This project is the clone of the frontend website of  Bewakoof-clone. Its all th
 
 ## Snapshot Of project
 
-### Home Page
+### Home/Mens Page 
 <img width="90%" align="center" src="https://user-images.githubusercontent.com/97978681/220148355-58faa512-533e-41dc-9052-b1f5678ee027.png"/>
 
 ### Login/Sign Up Page
 <img width="90%" src="https://user-images.githubusercontent.com/97978681/220148211-6306eaf2-1567-4918-8f33-022669e64e73.png"/>
-
-### Mens page
-<img width="90%" src="https://user-images.githubusercontent.com/97978681/220143949-ee892e48-9a25-455b-9510-1e0addb0fee0.png"/>
 
 ### Women page
 <img width="90%" src="https://user-images.githubusercontent.com/97978681/220148751-a28b156b-3418-48c8-bc9f-142266732357.png"/>
